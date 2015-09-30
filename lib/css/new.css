@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*init*/
+*{margin:0; padding:0}
+body{font-size:12px; font-family:Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif}
+fieldset{border:0 none;}
+img{vertical-align: top; border: 0 none}
+button,input[type="submit"]{cursor: pointer}
+a{text-decoration: none;}
+
+
+.header .topbar
+.header .topbar .gradation_bar img{width 100%;}

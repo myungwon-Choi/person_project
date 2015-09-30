@@ -1,0 +1,67 @@
+*{margin:0; padding:0}
+html,body{height:100%;}
+ul{list-style: none;}
+fieldset{border:0 none;}
+img{vertical-align: top;}
+a{outline:none;	select-dummy: expression(this.hideFocus=true);}
+
+
+.contents .imsibox{width:980px; height: 100%; border:1px #f00 solid;}
+.contents .cover_story{border:1px #f00 solid; height: 70px;}
+
+
+
+
+
+
+
+.wrap .head{width:100%; height:209px; border-bottom:5px #12151f solid;}
+.wrap .head .gradation_bar{width:100%; height:41px; background:url("lib/images/cubebridge/top_gradation_bar_px.png");}
+
+.wrap .head fieldset{float: right; height: 41px; margin-right:210px;}
+.wrap .head fieldset input[type="text"]{line-height:23px; width:279px; padding:0 10px; margin-right:11px; vertical-align:-10px; border:0 none; border-left:1px #666 solid; border-top:1px #666 solid;}
+.wrap .head fieldset input[type="submit"]{border:0; height:48px; width: 109px; background-image:url("lib/images/cubebridge/top_search_btn.png"); cursor:pointer; vertical-align: top;}
+.wrap .head .logo{width:980px; height:168px; border:1px #f00 solid; margin:0 auto}
+
+.wrap .contents .menu_bar{width:100%; height:35px; border-top:1px #000 solid; background-color:#00b2c7}
+.wrap .contents .photoline{width:1400px; height:299px; overflow:hidden;}
+
+.photoline li.on div{display: block;}
+.photoline li{display:inline-block;}
+.photoline li>a{position: relative; z-index: 1; display: block; top:271px; left:519px;}
+.photoline li div{position:absolute; display: none; top:250px; left:auto;}
+.photoline li a{width:11px; height:11px; display:block; background-image:url("lib/images/cubebridge/width_dot_btn_gray.png")}
+
+.contents .top-contents{border-bottom: 1px #dedede solid; width:1400px; height:449px; background-color: #e7e7e7}
+
+.contents .line{width:100%; height:1px; margin-top:-2px; background-image:url("lib/images/cubebridge/white_line.png")}
+
+.contents .middle-contents{border-bottom: 1px #dedede solid; height:495px; position: relative;}
+.contents .middle-contents .in-wrap{border: 1px #f00 solid; width:980px; height:495px;}
+.contents .middle-contents .best-portfolio-box{width: 360px; height: 423px; margin-top:31px; margin-left: 211px; position: absolute; z-index: 1;}
+.contents .middle-contents .name img{display:inline-block;}
+
+
+.contents .middle-contents .name p{display:inline-block; vertical-align:top; font-family: "돋움"; font-size: 12px; line-height: 11px;}
+.contents .middle-contents .best-portfolio-box .slide {width:360px; height: 400px; background: #12151f; position:relative;}
+.contents .middle-contents .slide button{position:absolute; z-index:1; top:50%; width:12px; height: 16px; border:0; background-color:transparent}
+
+.contents .middle-contents .slide button.next{left:10px; background-image: url("lib/images/cubebridge/white_left_arrow.png");}
+.contents .middle-contents .slide button.prev{right:10px}
+.contents .middle-contents .slide li {width:290px; height:350px; margin:20px 30px; position:absolute; top:0; text-align:center; display:none;}
+
+.contents .middle-contents .slide li.on{display:block}
+.contents .middle-contents .slide div img{width:100%}
+.contents .middle-contents .slide div{height: 340px}
+.contents .middle-contents .slide li p{margin-top:20px; color:#FFF; font-family:"verdana"; font-size:12px; font-style: "bold"}
+
+.contents .middle-contents .gridbox{margin-left: 602px; border: 1px #f00 solid; width:588px; height: 424px; position: absolute; left:32px; top:31px;}
+
+.contents .middle-contents .gridbox .creator_, .more{position: absolute;}
+.contents .middle-contents .gridbox .more{margin-left: 555px;}
+.contents .bottom-contents{width:100%; height:94px; background-color: #e7e7e7}
+.contents .bottom-contents .in_wrap{border: 1px #f00 solid; width:980px; height:94px; margin:0 auto;}
+.in_wrap .association{margin-top: 20px;}
+
+.footer{height:153px; background-color: #12151f;}
+.in_wrap .company-logo{margin-top: 20px; margin-left: 211px;}
